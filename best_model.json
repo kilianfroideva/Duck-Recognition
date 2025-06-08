@@ -1,0 +1,16 @@
+                                                                          
+{
+  "score": 0.8371776734375922,
+  "params": {
+    "learning_rate": 0.0008346400712474509,
+    "dropout1": 0.1,
+    "dropout2": 0.35147629020058924,
+    "dense_units": 512,
+    "use_batch_norm": "True",
+    "batch_size": 32,
+    "optimizer": "adam",
+    "fine_tuning": "frozen",
+    "l2_reg": 1.768857680758168e-06
+  },
+  "trial": 23
+}
