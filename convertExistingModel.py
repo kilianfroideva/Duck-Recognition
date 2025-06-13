@@ -64,11 +64,11 @@ tflite_path = model_dir / "duck_classifier.tflite"
 with open(tflite_path, 'wb') as f:
     f.write(tflite_model)
 
-print(f"✅ VOTRE modèle TFLite sauvegardé: {tflite_path}")
+print(f"✅ Modèle TFLite sauvegardé: {tflite_path}")
 print(f"📱 Taille: {len(tflite_model):,} bytes")
 
 # Test de compatibilité
-print("\n🧪 Test de VOTRE modèle avec Flutter...")
+print("\n🧪 Test modèle avec Flutter...")
 interpreter = tf.lite.Interpreter(model_content=tflite_model)
 interpreter.allocate_tensors()
 
@@ -90,7 +90,7 @@ confidence = np.max(output[0]) * 100
 print(f"✅ Test réussi!")
 print(f"📊 Prédiction test: {labels[predicted_class]} ({confidence:.1f}%)")
 
-print(f"\n🎯 VOTRE MODÈLE CNN ENTRAÎNÉ EST PRÊT!")
+print(f"\n🎯 MODÈLE CNN ENTRAÎNÉ EST PRÊT!")
 print(f"📂 Fichiers à copier vers Flutter:")
 print(f"   {tflite_path}")
 print(f"   {labels_path}")
@@ -102,4 +102,4 @@ print(f'copy "{labels_path}" "duck_recognition_app\\assets\\models\\"')
 print(f"\n📝 Dans main.dart, utilisez:")
 print(f"   'assets/models/your_trained_duck_model.tflite'")
 
-print(f"\n🦆 MAINTENANT VOTRE APP UTILISERA VOTRE VRAI CNN ENTRAÎNÉ!")
+print(f"\n🦆 L'APP UTILISERA UN MODELE CNN ENTRAÎNÉ!")
