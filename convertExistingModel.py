@@ -4,13 +4,27 @@ import numpy as np
 
 print("🔄 Conversion de VOTRE modèle CNN avec Python 3.11 + TensorFlow...")
 
-# VOTRE dossier avec le modèle entraîné
-model_dir = Path(r"c:\Users\nicol\OneDrive\Bureau\ARN\Labo\Duck-Recognition\output\duck_classification_f1_optimized_20250612_145058")
+# ✅ CORRIGEZ cette ligne avec le BON dossier
+model_dir = Path(r"c:\Users\nicol\OneDrive\Bureau\ARN\Labo\Duck-Recognition\output\best_model_duck_classification_f1_optimized_20250608_195712")
 
-# Charger VOTRE modèle entraîné
+# Le chemin du modèle
 model_path = model_dir / "model" / "best_duck_classifier_f1_optimized.h5"
-model = tf.keras.models.load_model(model_path)
 
+print(f"📂 Chargement depuis: {model_path}")
+print(f"📂 Fichier existe: {model_path.exists()}")
+
+# Vérification avant chargement
+if not model_path.exists():
+    print("❌ Fichier modèle introuvable!")
+    print("📂 Contenu du dossier model:")
+    model_folder = model_dir / "model"
+    if model_folder.exists():
+        for file in model_folder.iterdir():
+            print(f"  - {file.name}")
+    exit(1)
+
+# Charger le modèle
+model = tf.keras.models.load_model(str(model_path))
 print(f"✅ VOTRE modèle CNN chargé: {model.count_params():,} paramètres")
 print(f"📊 Architecture: {len(model.layers)} couches")
 
@@ -26,7 +40,7 @@ with open(labels_path, 'w', encoding='utf-8') as f:
 print(f"✅ Labels sauvegardés: {labels_path}")
 
 # Conversion TFLite optimisée pour Flutter
-print("🔄 Conversion TFLite avec VOTRE modèle entraîné...")
+print("🔄 Conversion TFLite avec modèle entraîné...")
 
 converter = tf.lite.TFLiteConverter.from_keras_model(model)
 
