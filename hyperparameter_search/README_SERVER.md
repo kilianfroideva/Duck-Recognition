@@ -12,7 +12,7 @@ cd hyperparameter_search
 3. ✅ Runs thorough search (50 trials)
 4. ✅ Saves optimized model
 
-## Runtime: ~8-12 hours
+## Runtime: ~36 hours
 
 ## Background Usage
 ```bash
