@@ -24,7 +24,7 @@ We will still test the model performance on these 2 more species to see it's per
 
 Below are the class weights (1/distribution) to show how class imbalance are handled:
 
-![](images/best_model_duck_classification_f1_optimized_20250608_195712/plots/class_weights.png)
+![](output/best_model_duck_classification_f1_optimized_20250608_195712/plots/class_weights.png)
 
 One thing to note is that for duck species with different features between sexes, we split them into two classes: `Canard colvert mâle` and `Canard colvert femelle` to help the model distinguish between them (it also give one more feature to the application).
 
@@ -54,7 +54,7 @@ Since the dataset is small, we used data augmentation techniques to artificially
 
 Below is an example of such augmentations:
 
-![](images/best_model_duck_classification_f1_optimized_20250608_195712/plots/augmentation_examples.png)
+![](output/best_model_duck_classification_f1_optimized_20250608_195712/plots/augmentation_examples.png)
 
 ### Dataset Split
 
@@ -194,21 +194,21 @@ The following table shows the detailed classification performance for each duck 
 
 Below is the confusion matrix showing detailed classification performance:
 
-![](../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/confusion_matrix.png)
+![](output/best_model_duck_classification_f1_optimized_20250608_195712/plots/confusion_matrix.png)
 
 The cross-validation results demonstrate model stability across different data splits:
 
-![](../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/cross_validation_results.png)
+![](output/best_model_duck_classification_f1_optimized_20250608_195712/plots/cross_validation_results.png)
 
 ### Prediction Confidence Analysis
 
 Most confident correct predictions across all classes:
 
-![](../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/most_confident_correct.png)
+![](output/best_model_duck_classification_f1_optimized_20250608_195712/plots/most_confident_correct.png)
 
 Most confident incorrect predictions (where the model was wrong but very confident):
 
-![](../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/most_confident_incorrect.png)
+![](output/best_model_duck_classification_f1_optimized_20250608_195712/plots/most_confident_incorrect.png)
 
 ## Grad-CAM Analysis
 
@@ -219,41 +219,41 @@ To understand what visual features our model focuses on when making predictions,
 #### Autre (Other)
 
 **Most Confident Correct Predictions:**
-![](../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Autre_correct.png)
+![](output/gradcam_best_model_analysis_20250615_172003/class_analysis/Autre_correct.png)
 
 **Most Confident Incorrect Predictions:**
-![](../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Autre_incorrect.png)
+![](output/gradcam_best_model_analysis_20250615_172003/class_analysis/Autre_incorrect.png)
 
 #### Colvert Femelle (Female Mallard)
 
 **Most Confident Correct Predictions:**
-![](../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_femelle_correct.png)
+![](output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_femelle_correct.png)
 
 *Note: This species showed perfect performance with no confident incorrect predictions, indicating excellent model reliability for female mallards.*
 
 #### Colvert Mâle (Male Mallard)
 
 **Most Confident Correct Predictions:**
-![](../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_mâle_correct.png)
+![](output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_mâle_correct.png)
 
 **Most Confident Incorrect Predictions:**
-![](../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_mâle_incorrect.png)
+![](output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_mâle_incorrect.png)
 
 #### Foulque Macroule (Eurasian Coot)
 
 **Most Confident Correct Predictions:**
-![](../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Foulque_macroule_correct.png)
+![](output/gradcam_best_model_analysis_20250615_172003/class_analysis/Foulque_macroule_correct.png)
 
 **Most Confident Incorrect Predictions:**
-![](../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Foulque_macroule_incorrect.png)
+![](output/gradcam_best_model_analysis_20250615_172003/class_analysis/Foulque_macroule_incorrect.png)
 
 #### Grèbe Huppé (Great Crested Grebe)
 
 **Most Confident Correct Predictions:**
-![](../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Grèbe_huppé_correct.png)
+![](output/gradcam_best_model_analysis_20250615_172003/class_analysis/Grèbe_huppé_correct.png)
 
 **Most Confident Incorrect Predictions:**
-![](../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Grèbe_huppé_incorrect.png)
+![](output/gradcam_best_model_analysis_20250615_172003/class_analysis/Grèbe_huppé_incorrect.png)
 
 ### Grad-CAM Insights
 
@@ -303,15 +303,15 @@ The model shows concerning performance issues in real-world conditions:
 
 **Successful Classifications:**
 
-![](../images/Results/Screenshot_20250615-102307.png)
+![](images/Results/Screenshot_20250615-102307.png)
 
-![](../images/Results/Screenshot_20250615-102401.png)
+![](images/Results/Screenshot_20250615-102401.png)
 
 **Failed Classifications:**
 
-![](../images/Results/Screenshot_20250615-102348.png)
+![](images/Results/Screenshot_20250615-102348.png)
 
-![](../images/Results/Screenshot_20250615-102435.png)
+![](images/Results/Screenshot_20250615-102435.png)
 
 **Analysis of Background Bias:**
 
