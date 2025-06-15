@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1750018042.79346 "/home/raspigeon/Documents/HEIG/ARN/Duck-Recognition/report/latex/report.tex" "report.pdf" "report" 1750018062.15253 0
+["pdflatex"] 1750018874.23027 "/home/raspigeon/Documents/HEIG/ARN/Duck-Recognition/report/latex/report.tex" "report.pdf" "report" 1750018894.85928 0
   "../../images/Results/Screenshot_20250615-102307.png" 1749986326.99959 1085213 0ae6e91f9c66acffee51131419375e9d ""
   "../../images/Results/Screenshot_20250615-102348.png" 1749986327.00159 990421 4ad85c82f235c7110d22a5d5bf4e551e ""
   "../../images/Results/Screenshot_20250615-102401.png" 1749986327.00259 1033106 8f6326d021fda09e96baf6bc92abb05f ""
@@ -19,7 +19,7 @@
   "../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Foulque_macroule_incorrect.png" 1750000904.2499 740750 aae84d9079e45add09419100b209d93a ""
   "../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Grèbe_huppé_correct.png" 1750000914.48186 3009591 15719b14782aa16c59d9f750f325668b ""
   "../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Grèbe_huppé_incorrect.png" 1750000916.46286 781037 317c83162e1acaf5b7cedb5478bf872b ""
-  "/home/raspigeon/Documents/HEIG/ARN/Duck-Recognition/report/latex/report.tex" 1750018023.95187 27722 53260440e363257c208041a236b83f39 ""
+  "/home/raspigeon/Documents/HEIG/ARN/Duck-Recognition/report/latex/report.tex" 1750018865.53186 27895 8237d17309a5801330117a38f4eabb82 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -133,10 +133,10 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1714953600 40900 887e0dc8cac988a9e9c574af364cf837 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1740700439.27788 4547823 614eba97e0451aad345770236b030e55 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1742230778 7765552 718321e67aafadc1b90b439f84721c03 ""
-  "report.aux" 1750018061.98427 11697 e3d7e1ad39381f7d37565c3b2a189f17 "pdflatex"
-  "report.out" 1750018061.98627 5530 a4d392247dff962bf5aae071e1d07341 "pdflatex"
-  "report.tex" 1750018023.95187 27722 53260440e363257c208041a236b83f39 ""
-  "report.toc" 1750018061.98627 2890 0d16eca77d311661ae768d0a9cdd8b2e "pdflatex"
+  "report.aux" 1750018894.70377 11805 1d2c8b8c421cfc5fc3cd3e44b6f2aa5b "pdflatex"
+  "report.out" 1750018894.70577 5624 b97ad8b86d3e7c56c05bb955f347b26e "pdflatex"
+  "report.tex" 1750018865.53186 27895 8237d17309a5801330117a38f4eabb82 ""
+  "report.toc" 1750018894.70577 2957 51be4ddc193b2285f0083cf14156f313 "pdflatex"
   (generated)
   "report.aux"
   "report.log"

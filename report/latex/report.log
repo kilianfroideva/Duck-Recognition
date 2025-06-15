@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2025.3.17)  15 JUN 2025 22:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2025.3.17)  15 JUN 2025 22:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -476,7 +476,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-<../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/class_weights.png, id=184, 722.7pt x 433.62pt>
+<../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/class_weights.png, id=189, 722.7pt x 433.62pt>
 File: ../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/class_weights.png Graphic file (type png)
 <use ../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/class_weights.png>
 Package pdftex.def Info: ../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/class_weights.png  used on input line 92.
@@ -500,7 +500,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4 <../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/class_weights.png>]
-<../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/augmentation_examples.png, id=199, 1400.5926pt x 1420.1055pt>
+<../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/augmentation_examples.png, id=204, 1400.5926pt x 1420.1055pt>
 File: ../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/augmentation_examples.png Graphic file (type png)
 <use ../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/augmentation_examples.png>
 Package pdftex.def Info: ../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/augmentation_examples.png  used on input line 130.
@@ -546,12 +546,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-<../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/confusion_matrix.png, id=226, 678.3744pt x 569.7285pt>
+<../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/confusion_matrix.png, id=231, 678.3744pt x 569.7285pt>
 File: ../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/confusion_matrix.png Graphic file (type png)
 <use ../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/confusion_matrix.png>
 Package pdftex.def Info: ../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/confusion_matrix.png  used on input line 307.
 (pdftex.def)             Requested size: 362.37569pt x 304.34534pt.
-<../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/cross_validation_results.png, id=227, 1076.1003pt x 711.8595pt>
+<../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/cross_validation_results.png, id=232, 1076.1003pt x 711.8595pt>
 File: ../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/cross_validation_results.png Graphic file (type png)
 <use ../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/cross_validation_results.png>
 Package pdftex.def Info: ../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/cross_validation_results.png  used on input line 316.
@@ -565,12 +565,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9 <../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/confusion_matrix.png>]
-<../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/most_confident_correct.png, id=235, 1372.6482pt x 286.9119pt>
+<../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/most_confident_correct.png, id=240, 1372.6482pt x 286.9119pt>
 File: ../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/most_confident_correct.png Graphic file (type png)
 <use ../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/most_confident_correct.png>
 Package pdftex.def Info: ../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/most_confident_correct.png  used on input line 327.
 (pdftex.def)             Requested size: 362.37569pt x 75.74234pt.
-<../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/most_confident_incorrect.png, id=236, 1372.6482pt x 286.9119pt>
+<../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/most_confident_incorrect.png, id=241, 1372.6482pt x 286.9119pt>
 File: ../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/most_confident_incorrect.png Graphic file (type png)
 <use ../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/most_confident_incorrect.png>
 Package pdftex.def Info: ../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/most_confident_incorrect.png  used on input line 336.
@@ -584,27 +584,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10 <../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/cross_validation_results.png> <../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/most_confident_correct.png> <../../output/best_model_duck_classification_f1_optimized_20250608_195712/plots/most_confident_incorrect.png>]
-<../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Autre_correct.png, id=247, 1382.5251pt x 1136.8071pt>
+<../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Autre_correct.png, id=252, 1382.5251pt x 1136.8071pt>
 File: ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Autre_correct.png Graphic file (type png)
 <use ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Autre_correct.png>
 Package pdftex.def Info: ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Autre_correct.png  used on input line 353.
 (pdftex.def)             Requested size: 203.83417pt x 167.59953pt.
-<../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Autre_incorrect.png, id=248, 1410.2286pt x 1136.8071pt>
+<../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Autre_incorrect.png, id=253, 1410.2286pt x 1136.8071pt>
 File: ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Autre_incorrect.png Graphic file (type png)
 <use ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Autre_incorrect.png>
 Package pdftex.def Info: ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Autre_incorrect.png  used on input line 360.
 (pdftex.def)             Requested size: 203.83417pt x 164.30374pt.
-<../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_femelle_correct.png, id=249, 1382.5251pt x 1136.8071pt>
+<../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_femelle_correct.png, id=254, 1382.5251pt x 1136.8071pt>
 File: ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_femelle_correct.png Graphic file (type png)
 <use ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_femelle_correct.png>
 Package pdftex.def Info: ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_femelle_correct.png  used on input line 372.
 (pdftex.def)             Requested size: 271.7835pt x 223.47183pt.
-<../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_mâle_correct.png, id=250, 1382.5251pt x 1136.8071pt>
+<../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_mâle_correct.png, id=255, 1382.5251pt x 1136.8071pt>
 File: ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_mâle_correct.png Graphic file (type png)
 <use ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_mâle_correct.png>
 Package pdftex.def Info: ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_mâle_correct.png  used on input line 385.
 (pdftex.def)             Requested size: 203.83417pt x 167.59953pt.
-<../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_mâle_incorrect.png, id=251, 1410.2286pt x 1136.8071pt>
+<../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_mâle_incorrect.png, id=256, 1410.2286pt x 1136.8071pt>
 File: ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_mâle_incorrect.png Graphic file (type png)
 <use ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_mâle_incorrect.png>
 Package pdftex.def Info: ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_mâle_incorrect.png  used on input line 392.
@@ -618,22 +618,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11 <../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Autre_correct.png> <../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Autre_incorrect.png> <../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Colvert_femelle_correct.png>]
-<../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Foulque_macroule_correct.png, id=262, 1382.5251pt x 1136.8071pt>
+<../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Foulque_macroule_correct.png, id=267, 1382.5251pt x 1136.8071pt>
 File: ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Foulque_macroule_correct.png Graphic file (type png)
 <use ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Foulque_macroule_correct.png>
 Package pdftex.def Info: ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Foulque_macroule_correct.png  used on input line 406.
 (pdftex.def)             Requested size: 203.83417pt x 167.59953pt.
-<../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Foulque_macroule_incorrect.png, id=263, 527.3301pt x 570.2103pt>
+<../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Foulque_macroule_incorrect.png, id=268, 527.3301pt x 570.2103pt>
 File: ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Foulque_macroule_incorrect.png Graphic file (type png)
 <use ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Foulque_macroule_incorrect.png>
 Package pdftex.def Info: ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Foulque_macroule_incorrect.png  used on input line 413.
 (pdftex.def)             Requested size: 203.83417pt x 220.40607pt.
-<../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Grèbe_huppé_correct.png, id=264, 1381.3206pt x 1136.8071pt>
+<../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Grèbe_huppé_correct.png, id=269, 1381.3206pt x 1136.8071pt>
 File: ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Grèbe_huppé_correct.png Graphic file (type png)
 <use ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Grèbe_huppé_correct.png>
 Package pdftex.def Info: ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Grèbe_huppé_correct.png  used on input line 427.
 (pdftex.def)             Requested size: 203.83417pt x 167.7383pt.
-<../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Grèbe_huppé_incorrect.png, id=265, 519.3804pt x 570.2103pt>
+<../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Grèbe_huppé_incorrect.png, id=270, 519.3804pt x 570.2103pt>
 File: ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Grèbe_huppé_incorrect.png Graphic file (type png)
 <use ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Grèbe_huppé_incorrect.png>
 Package pdftex.def Info: ../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Grèbe_huppé_incorrect.png  used on input line 434.
@@ -655,12 +655,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13 <../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Grèbe_huppé_correct.png> <../../output/gradcam_best_model_analysis_20250615_172003/class_analysis/Grèbe_huppé_incorrect.png>]
-<../../images/Results/Screenshot_20250615-102307.png, id=288, 1084.05pt x 2409.0pt>
+<../../images/Results/Screenshot_20250615-102307.png, id=293, 1084.05pt x 2409.0pt>
 File: ../../images/Results/Screenshot_20250615-102307.png Graphic file (type png)
 <use ../../images/Results/Screenshot_20250615-102307.png>
 Package pdftex.def Info: ../../images/Results/Screenshot_20250615-102307.png  used on input line 508.
 (pdftex.def)             Requested size: 203.83417pt x 452.93617pt.
-<../../images/Results/Screenshot_20250615-102401.png, id=289, 1084.05pt x 2409.0pt>
+<../../images/Results/Screenshot_20250615-102401.png, id=294, 1084.05pt x 2409.0pt>
 File: ../../images/Results/Screenshot_20250615-102401.png Graphic file (type png)
 <use ../../images/Results/Screenshot_20250615-102401.png>
 Package pdftex.def Info: ../../images/Results/Screenshot_20250615-102401.png  used on input line 515.
@@ -674,12 +674,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14]
-<../../images/Results/Screenshot_20250615-102348.png, id=296, 1084.05pt x 2409.0pt>
+<../../images/Results/Screenshot_20250615-102348.png, id=301, 1084.05pt x 2409.0pt>
 File: ../../images/Results/Screenshot_20250615-102348.png Graphic file (type png)
 <use ../../images/Results/Screenshot_20250615-102348.png>
 Package pdftex.def Info: ../../images/Results/Screenshot_20250615-102348.png  used on input line 529.
 (pdftex.def)             Requested size: 203.83417pt x 452.93617pt.
-<../../images/Results/Screenshot_20250615-102435.png, id=297, 1084.05pt x 2409.0pt>
+<../../images/Results/Screenshot_20250615-102435.png, id=302, 1084.05pt x 2409.0pt>
 File: ../../images/Results/Screenshot_20250615-102435.png Graphic file (type png)
 <use ../../images/Results/Screenshot_20250615-102435.png>
 Package pdftex.def Info: ../../images/Results/Screenshot_20250615-102435.png  used on input line 536.
@@ -718,21 +718,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [18] (./report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: A4D392247DFF962BF5AAE071E1D07341;5530.
+(rerunfilecheck)             Checksum: B97AD8B86D3E7C56C05BB955F347B26E;5624.
  ) 
 Here is how much of TeX's memory you used:
- 14343 strings out of 476034
- 233110 string characters out of 5792854
+ 14345 strings out of 476034
+ 233130 string characters out of 5792854
  1867388 words of memory out of 6000000
- 34512 multiletter control sequences out of 15000+600000
+ 34513 multiletter control sequences out of 15000+600000
  527812 words of font info for 73 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  75i,12n,77p,604b,518s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on report.pdf (18 pages, 39990395 bytes).
+Output written on report.pdf (18 pages, 39996126 bytes).
 PDF statistics:
- 380 PDF objects out of 1000 (max. 8388607)
- 303 compressed objects within 4 object streams
- 78 named destinations out of 1000 (max. 500000)
- 360 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 387 PDF objects out of 1000 (max. 8388607)
+ 310 compressed objects within 4 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 368 words of extra memory for PDF output out of 10000 (max. 10000000)
 
